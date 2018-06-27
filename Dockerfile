@@ -24,7 +24,7 @@ RUN mkdir -p /daemon && mkdir -p /daemon/data && mkdir -p /daemon
 
 # Install Daemon
 WORKDIR /daemon/
-RUN wget http://seeds.dero.io/alpha/dero_linux_amd64.tar.gz
+RUN wget http://seeds.dero.io/atlantis/dero_linux_amd64.tar.gz
 RUN tar -zxf dero_linux_amd64.tar.gz ./
 
 WORKDIR /daemon/
